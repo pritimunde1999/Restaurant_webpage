@@ -1,0 +1,210 @@
+*{
+    background-color: black;
+    font-family: 'Ruda', sans-serif;
+    
+}
+
+nav > a, .icons > a{
+    color:white;
+    text-decoration: none;
+    margin:10px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+   
+}
+section{
+    margin-bottom: 100px;
+}
+
+.name{
+    margin-top:20px;
+    margin-left:10px;
+    font-size: 35px;
+    font-family: 'Caprasimo', cursive;
+}
+
+.navbar, .icons{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.icons{
+    margin-top:30px;
+}
+
+.background-img > svg{
+    opacity: 0.6;
+}
+
+.background-img > h1{
+color: #FFF;
+text-align: center;
+font-size: 90px;
+font-family: Quattrocento;
+font-style: normal;
+font-weight: 700;
+line-height: 100px;
+letter-spacing: 9px;
+position:absolute;
+top:25%;
+background-color: transparent;
+
+width: 700px;
+height: 215px;
+flex-direction: column;
+flex-shrink: 0;
+}
+
+.border{
+    position: absolute;
+    top:60%;
+    background-color: #F24C4C;
+    width:586px;
+    height:13px;
+    margin-left: 40px;
+    
+}
+
+.background-img > p{
+    position: absolute;
+    top:70%;
+    color: white;
+    background-color: transparent;
+    width: 586px;
+    font-size: 25px;
+    margin-left:40px;
+}
+
+.aboutus{
+
+    margin-top: 40px;
+}
+.aboutus >h1, .menu>h1, .carousel>h1,.gallery>h1, .findus>h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    padding-top: 50px;
+}
+
+.border-1{
+    background-color: #F24C4C;
+    width:280px;
+    height:8px;
+    margin:auto;
+    margin-top: 35px;
+    
+}
+.img-aboutus{
+    display: flex;
+    justify-content: space-around; 
+    margin:auto;
+}
+
+.img-aboutus > p{
+    color: white;
+    width: 500px;
+    height: 400px;
+    margin-top:80px;
+    font-family: Ruda;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+ 
+
+
+}
+.img-aboutus > img{
+  width: 500px;
+  height: 400px;
+margin-top: 30px;
+border-radius: 10px;
+}
+
+.text{
+    color: #FFF;
+    margin: auto;
+    font-family: Ruda;
+    font-size: 22px;
+    margin-top: 30px;
+    line-height: 40px;
+    width:1000px;
+    height:400px;
+}
+
+.bold{
+    color: #f2c94c;
+    font-family: Ruda;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 348px;
+    height: 51px;
+    top: 2389px;
+    left: 486px;
+
+
+}
+.para:not(.bold){
+   color:#fff;
+   font-family: Ruda;
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+
+text-align: left;
+width: 346px;
+height: 120px;
+
+}
+
+.div1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.row{
+    margin-bottom: 30px;
+}
+
+
+.div-add {
+    color:white;
+    margin-top: 40px;
+}
+
+.add-1{
+
+    width: 400px;
+    height:200px;
+}
+
+.map > img{
+    width: 300px;
+    height:300px;
+}
+
+.rightside{
+    color: white;
+    margin-top: 20px;
+}
+
+.mail,.phone{
+    gap:20px;
+}
+
+.mail>p, .phone>p{
+    margin-top: 10px;
+}
+
+
